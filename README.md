@@ -20,8 +20,8 @@ Traditional irrigation systems either over-water or under-water plants because t
 | Input | Humidity | 0–100% | Low, Medium, High |
 | Output | Water Amount | 0–100% | Zero, Low, Medium, Large |
 
-**Inference method:** Mamdani (chosen for interpretability — rules map directly to natural human reasoning).. 
-**Aggregation:** Minimum/Product.. 
+**Inference method:** Mamdani (chosen for interpretability — rules map directly to natural human reasoning) ··
+**Aggregation:** Minimum/Product ·· 
 **Defuzzification:** Centroid
 
 ![FIS Architecture](Images/fis_architecture.png)
