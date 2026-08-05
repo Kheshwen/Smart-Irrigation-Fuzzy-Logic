@@ -1,17 +1,17 @@
-# 🌱 Fuzzy Logic-Based Smart Irrigation Control System
+# Fuzzy Logic-Based Smart Irrigation Control System
 
-A MATLAB-based fuzzy inference system (FIS) that determines how much water a plant needs based on **soil moisture**, **temperature**, and **humidity** — built using the Mamdani fuzzy logic model.
+A MATLAB-based fuzzy inference system (FIS) that determines how much water a plant needs based on **soil moisture**, **temperature** and **humidity**. This system built using the Mamdani fuzzy logic model.
 
 ![MATLAB](https://img.shields.io/badge/MATLAB-Fuzzy%20Logic%20Toolbox-orange)
 ![License](https://img.shields.io/badge/license-MIT-blue)
 
 ---
 
-## 📖 Overview
+## Overview
 
-Traditional irrigation systems either over-water or under-water plants because they don't account for multiple environmental factors at once. This project uses fuzzy logic to mimic human-like decision-making — combining soil moisture, temperature, and humidity readings to output a smooth, proportional watering amount instead of a rigid on/off response.
+Traditional irrigation systems either over-water or under-water plants because they don't account for multiple environmental factors at once. This project uses fuzzy logic to mimic human-like decision-making. Thus, combining soil moisture, temperature and humidity readings to output a smooth and proportional watering amount instead of a rigid on/off response.
 
-## ⚙️ System Design
+## System Design
 
 | Type | Variable | Range | Linguistic Terms |
 |------|----------|-------|-------------------|
@@ -26,7 +26,7 @@ Traditional irrigation systems either over-water or under-water plants because t
 
 ![FIS Architecture](Images/fis_architecture.png)
 
-## 📐 Membership Functions
+## Membership Functions
 
 | Variable | MF | Type | Parameters |
 |----------|----|------|------------|
@@ -37,7 +37,7 @@ Traditional irrigation systems either over-water or under-water plants because t
 
 ![Membership Functions](Images/membership_functions.png)
 
-## 📋 Rule Base (27 rules)
+## Rule Base (27 rules)
 
 A sample of the rule logic (full list in [`WaterOutput.m`](WaterOutput.m)):
 
@@ -51,7 +51,7 @@ A sample of the rule logic (full list in [`WaterOutput.m`](WaterOutput.m)):
 | 25 | Dry | Hot | High | Medium |
 | 27 | Wet | Hot | High | Zero |
 
-## 🖥️ How to Run
+## How to Run
 
 1. Requires MATLAB with the **Fuzzy Logic Toolbox**.
 2. Clone the repo and open `WaterOutput.m`.
@@ -65,7 +65,7 @@ A sample of the rule logic (full list in [`WaterOutput.m`](WaterOutput.m)):
 run('WaterOutput.m')
 ```
 
-## 📊 Sample Simulation
+## Sample Simulation
 
 **Input:** Soil Moisture = 15%, Temperature = 38°C, Humidity = 20%
 **Output:** Water Amount = **90.98%**
@@ -80,7 +80,7 @@ This matches expectations — dry soil, hot weather, and low humidity should tri
 ![Rule Viewer 2](Images/rule_viewer/rule_viewer_2.png)
 ![Rule Viewer 3](Images/rule_viewer/rule_viewer_3.png)
 
-## 📁 Repository Structure
+## Repository Structure
 
 ```
 smart-irrigation-fuzzy-logic/
@@ -99,13 +99,11 @@ smart-irrigation-fuzzy-logic/
        └── rule_viewer_3.png
 ```
 
-## 👥 Contributors
+## Contributors
 
-| Name | Student ID |
-|------|------------|
-| Kheshwenda A/L Narasimban | 24003160 |
-| Anuar Afiq Bin Arfahairy | 24002263 |
-| Fawwaz 'Arash Bin Mohamad Fakhri | 24001456 |
+[1] Kheshwenda Narasimban 
+[2] Anuar Afiq Bin Arfahairy 
+[3] Fawwaz 'Arash Bin Mohamad Fakhri 
 
 ## 📄 License
 
