@@ -24,7 +24,7 @@ Traditional irrigation systems either over-water or under-water plants because t
 **Aggregation:** Minimum/Product
 **Defuzzification:** Centroid
 
-![FIS Architecture](images/fis_architecture.png)
+![FIS Architecture](Images/fis_architecture.png)
 
 ## 📐 Membership Functions
 
@@ -35,7 +35,7 @@ Traditional irrigation systems either over-water or under-water plants because t
 | Humidity | Low / Medium / High | Trap / Tri / Trap | [0 0 25 45] / [30 50 70] / [55 75 100 100] |
 | Water Amount | Zero / Low / Medium / Large | Trap / Tri / Tri / Trap | [0 0 10 25] / [15 35 55] / [45 65 85] / [75 90 100 100] |
 
-![Membership Functions](images/membership_functions.png)
+![Membership Functions](Images/membership_functions.png)
 
 ## 📋 Rule Base (27 rules)
 
@@ -76,9 +76,9 @@ This matches expectations — dry soil, hot weather, and low humidity should tri
 
 **Rule Viewer** (27 rules, split across 3 images):
 
-![Rule Viewer 1](images/rule_viewer_1.png)
-![Rule Viewer 2](images/rule_viewer_2.png)
-![Rule Viewer 3](images/rule_viewer_3.png)
+![Rule Viewer 1](Images/rule_viewer/rule_viewer_1.png)
+![Rule Viewer 2](Images/rule_viewer/rule_viewer_2.png)
+![Rule Viewer 3](Images/rule_viewer/rule_viewer_3.png)
 
 ## 📁 Repository Structure
 
@@ -87,15 +87,16 @@ smart-irrigation-fuzzy-logic/
 ├── README.md
 ├── WaterOutput.m
 ├── SmartIrrigationControlSystem.fis
-├── docs/
+├── Docs/
 │   └── Project_Report.pdf
-└── images/
+└── Images/
     ├── membership_functions.png
     ├── fis_architecture.png
     ├── surface_view.png
-    ├── rule_viewer_1.png
-    ├── rule_viewer_2.png
-    └── rule_viewer_3.png
+    └── rule_viewer/
+       ├── rule_viewer_1.png
+       ├── rule_viewer_2.png
+       └── rule_viewer_3.png
 ```
 
 ## 👥 Contributors
