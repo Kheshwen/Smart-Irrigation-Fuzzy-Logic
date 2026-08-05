@@ -73,7 +73,12 @@ run('WaterOutput.m')
 This matches expectations — dry soil, hot weather, and low humidity should trigger heavy watering.
 
 ![Surface View](images/surface_view.png)
-![Rule Viewer](images/rule_viewer.png)
+
+**Rule Viewer** (27 rules, split across 3 images):
+
+![Rule Viewer 1](images/rule_viewer_1.png)
+![Rule Viewer 2](images/rule_viewer_2.png)
+![Rule Viewer 3](images/rule_viewer_3.png)
 
 ## 📁 Repository Structure
 
@@ -88,14 +93,18 @@ smart-irrigation-fuzzy-logic/
     ├── membership_functions.png
     ├── fis_architecture.png
     ├── surface_view.png
-    └── rule_viewer.png
+    ├── rule_viewer_1.png
+    ├── rule_viewer_2.png
+    └── rule_viewer_3.png
 ```
 
 ## 👥 Contributors
 
-| 1 | Kheshwenda A/L Narasimban 
-| 2 | Anuar Afiq Bin Arfahairy 
-| 3 | Fawwaz 'Arash Bin Mohamad Fakhri 
+| Name | Student ID |
+|------|------------|
+| Kheshwenda A/L Narasimban | 24003160 |
+| Anuar Afiq Bin Arfahairy | 24002263 |
+| Fawwaz 'Arash Bin Mohamad Fakhri | 24001456 |
 
 ## 📄 License
 
