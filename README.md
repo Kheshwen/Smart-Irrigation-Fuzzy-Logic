@@ -72,7 +72,7 @@ run('WaterOutput.m')
 
 This matches expectations — dry soil, hot weather, and low humidity should trigger heavy watering.
 
-![Surface View](images/surface_view.png)
+![Surface View](Images/surface_view.png)
 
 **Rule Viewer** (27 rules, split across 3 images):
 
